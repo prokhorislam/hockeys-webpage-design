@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="corporate">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="" />
+    <!-- tailwind and daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fonts and others -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css styles  -->
+    <style>
+        /* My custom CSS here */
+        /* font manrope */
+        .man-400 {
+          font-family: "Manrope", system-ui;
+          font-optical-sizing: auto;
+          font-weight: 400;
+          font-style: normal;
+        }
+        .man-500 {
+          font-family: "Manrope", system-ui;
+          font-optical-sizing: auto;
+          font-weight: 500;
+          font-style: normal;
+        }
+        .man-600 {
+          font-family: "Manrope", system-ui;
+          font-optical-sizing: auto;
+          font-weight: 600;
+          font-style: normal;
+        }
+        .man-700 {
+          font-family: "Manrope", system-ui;
+          font-optical-sizing: auto;
+          font-weight: 700;
+          font-style: normal;
+        }
+        .man-800 {
+          font-family: "Manrope", system-ui;
+          font-optical-sizing: auto;
+          font-weight: 800;
+          font-style: normal;
+        }
+      </style>
+    <title>Hockey's | Home</title>
+</head>
+<body class="">
+    <header class="w-5/6 mx-auto mb-32">
+        <!-- navbar -->
+        <nav class="">
+            <div class="navbar">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li class="text-[#424247] text-base man-400 hover:text-[#FF4240]"><a>Home</a></li>
+                      <li class="text-[#424247] text-base man-400 hover:text-[#FF4240]"><a>About</a></li>
+                      <li class="text-[#424247] text-base man-400 hover:text-[#FF4240]"><a>Pages</a></li>
+                      <li class="text-[#424247] text-base man-400 hover:text-[#FF4240]"><a>Blog</a></li>
+                      <li class="text-[#424247] text-base man-400 hover:text-[#FF4240]"><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="flex man-800 text-4xl cursor-pointer">Hockey<p class="text-red-500">’</p>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li class="text-[#424247] text-base man-400 hover:text-[#FF4240]"><a>Home</a></li>
+                      <li class="text-[#424247] text-base man-400 hover:text-[#FF4240]"><a>About</a></li>
+                      <li class="text-[#424247] text-base man-400 hover:text-[#FF4240]"><a>Pages</a></li>
+                      <li class="text-[#424247] text-base man-400 hover:text-[#FF4240]"><a>Blog</a></li>
+                      <li class="text-[#424247] text-base man-400 hover:text-[#FF4240]"><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <button class="btn rounded-lg px-5 py-2 man-700 text-xl text-white bg-red-500">Get Ticket</button>
+                </div>
+              </div>
+        </nav>
+        <!-- banner section -->
+         <section>
+            <div class="carousel container rounded-xl h-52 md:h-[480px] lg:h-[500px] mt-12  relative">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img
+                    src="/Images/1.png"
+                    class="w-full" />
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img
+                    src="/Images/2.png"
+                    class="w-full" />
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img
+                    src="/Images/3.png"
+                    class="w-full" />
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img
+                    src="/Images/4.png"
+                    class="w-full" />
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+              <div class="md:absolute md:-bottom-10 md:right-36 lg:absolute lg:-bottom-10 lg:right-36">
+                <div class="bg-[#131318] p-8 h-40 lg:h-36 md:w-[450px] lg:w-[480px] rounded-xl">
+                    <h4 class="man-700 text-xl text-white mb-4">Meet all the heroes from the field</h4>
+                    <p class="man-400 text-sm text-[#FFFFFF99]">They are the heroes of hockey. they played in many leagues and archived many trophies in major leagues.</p>
+                  </div>
+              </div>
+         </section>
+    </header>
+    <main class="w-5/6 mx-auto mb-32">
+        <!-- hockey club stats section -->
+         <section>
+            <h2 class="man-800 mb-6 text-4xl lg:text-5xl text-center">Professional Hockeys Club</h2>
+             <p class="text-[#13131899] text-base man-500 lg:w-2/3 m-auto text-center">Recently this club being best club in the country. these stats are the reason for it. our professional coach done the trick of this club !</p>
+             <!-- stats part container-->
+              <div class="mt-20 grid gap-20 md:gap-10 lg:gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <!-- stat 1 -->
+                 <div >
+                    <div class="flex flex-row justify-center items-center">
+                        <div class="radial-progress text-primary text-red-500" style="--value:82;" role="progressbar"><span class="text-black">87%</span></div>
+                    </div>
+                    <p class="man-600 text-xl text-center">Prayer Facility</p>
+                    <p class="text-[#13131899] man-400 text-center text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                 </div>
+                <!-- stat 2 -->
+                 <div >
+                    <div class="flex flex-row justify-center items-center">
+                        <div class="radial-progress text-primary text-[#49D293]" style="--value:90;" role="progressbar"><span class="text-black">95%</span></div>
+                    </div>
+                    <p class="man-600 text-xl text-center">Experienced Coach</p>
+                    <p class="text-[#13131899] man-400 text-center text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                 </div>
+                <!-- stat 3 -->
+                 <div >
+                    <div class="flex flex-row justify-center items-center">
+                        <div class="radial-progress text-primary text-[#FFB546]" style="--value:85;" role="progressbar"><span class="text-black">90%</span></div>
+                    </div>
+                    <p class="man-600 text-xl text-center">Senior Player</p>
+                    <p class="text-[#13131899] man-400 text-center text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                 </div>
+                <!-- stat 4 -->
+                 <div >
+                    <div class="flex flex-row justify-center items-center">
+                        <div class="radial-progress text-primary text-[#4C8DF1]" style="--value:75;" role="progressbar"><span class="text-black">80%</span></div>
+                    </div>
+                    <p class="man-600 text-xl text-center">Training Ground</p>
+                    <p class="text-[#13131899] man-400 text-center text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                 </div>
+              </div>
+         </section>
+         <!-- hero card section -->
+          <section class="mt-28">
+            <h2 class="man-800 mb-6 text-4xl lg:text-5xl text-center">Program Sections</h2>
+             <p class="text-[#13131899] mb-20 text-base man-500 lg:w-2/3 m-auto text-center">Recently this club being best club in the country. these stats are the reason for it. our professional coach done the trick of this club !</p>
+             <!-- hero card part -->
+              <div class="flex gap-6 flex-col lg:flex-row">
+                <!-- card 1 -->
+                <div>
+                    <div
+  class="hero h-[340px] rounded-xl"
+  style="background-image: url(/Images/2.png);">
+  <div class="hero-overlay bg-opacity-60 rounded-xl" ></div>
+  <div class="hero-content text-neutral-content p-10">
+    <div class="">
+      <h1 class="mb-5 text-left text-3xl man-800">Junior Program</h1>
+      <p class="mb-6 text-left text-base man-500">
+        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      </p>
+      <button class="btn man-700 text-xl text-white px-4 py-2 border-[#FF4240] rounded-lg bg-[#FF4240]">Register Now!</button>
+    </div>
+  </div>
+</div>
+                </div>
+                <!-- card 2 -->
+                <div>
+                    <div
+  class="hero h-[340px] rounded-xl"
+  style="background-image: url(/Images/3.png);">
+  <div class="hero-overlay bg-opacity-60 rounded-xl" ></div>
+  <div class="hero-content text-neutral-content p-10">
+    <div class="">
+      <h1 class="mb-5 text-left text-3xl man-800">Junior Program</h1>
+      <p class="mb-6 text-left text-base man-500">
+        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      </p>
+      <button class="btn man-700 text-xl text-white px-4 py-2 border-[#FF4240] rounded-lg bg-[#FF4240]">Register Now!</button>
+    </div>
+  </div>
+</div>
+                </div>
+              </div>
+              <!-- card 3 -->
+              <div class="mt-6">
+                <div
+  class="hero h-[340px] rounded-xl"
+  style="background-image: url(/Images/4.png);">
+  <div class="hero-overlay bg-opacity-60 rounded-xl" ></div>
+  <div class="hero-content text-neutral-content p-10">
+    <div class="">
+      <h1 class="mb-5 text-left text-3xl man-800">Junior Program</h1>
+      <p class="mb-6 text-left text-base man-500">
+        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      </p>
+      <button class="btn man-700 text-xl text-white px-4 py-2 border-[#FF4240] rounded-lg bg-[#FF4240]">Register Now!</button>
+    </div>
+  </div>
+</div>
+              </div>
+          </section>
+          <!-- products section -->
+           <section  class="mt-28">
+            <h2 class="man-800 mb-6 text-4xl lg:text-5xl text-center">Our New Products</h2>
+             <p class="text-[#13131899] mb-20 text-base man-500 lg:w-2/3 m-auto text-center">Recently this club being best club in the country. these stats are the reason for it. our professional coach done the trick of this club !</p>
+             <!-- product cards -->
+              <div class="flex lg:flex-row flex-col gap-14 md:gap-8 lg:gap-6">
+                <!-- card 1 -->
+                <div class="p-6 border-[#d0d0d1] border-2 rounded-xl">
+                    <!-- card items -->
+                    <div class="flex gap-5">
+                        <!-- card image -->
+                        <div><img src="Images/5.png" alt=""></div> 
+                        <!-- card text -->
+                        <div>
+                            <!-- ratings -->
+                            <div class="flex gap-5 mb-3">
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#f99808" class="size-6">
+                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        5.0
+                                    </span>
+                                </div>
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        20
+                                    </span>
+                                </div>
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        200
+                                    </span>
+                                </div>
+                            </div>
+                              <!-- product name -->
+                              <p class="man-800 text-xl mb-3">World Cup Flags Football</p>
+                              <p class="man-500 text-base
+                              text-[#13131899] mb-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                              <!-- price and delivery -->
+                               <div class="flex justify-between">
+                                <p class="man-800 text-lg
+                                text-[#FF4240]">Price - $22.00</p>
+                                <p class="man-500 text-base text-[#13131899]">Delivery Fee : Free</p>
+                               </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="p-6 border-[#d0d0d1] border-2 rounded-xl">
+                    <!-- card items -->
+                    <div class="flex gap-5">
+                        <!-- card image -->
+                        <div><img src="Images/6.png" alt=""></div> 
+                        <!-- card text -->
+                        <div>
+                            <!-- ratings -->
+                            <div class="flex gap-5 mb-3">
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#f99808" class="size-6">
+                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        5.0
+                                    </span>
+                                </div>
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        20
+                                    </span>
+                                </div>
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        200
+                                    </span>
+                                </div>
+                            </div>
+                              <!-- product name -->
+                              <p class="man-800 text-xl mb-3">World Cup Flags Football</p>
+                              <p class="man-500 text-base
+                              text-[#13131899] mb-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                              <!-- price and delivery -->
+                               <div class="flex justify-between">
+                                <p class="man-800 text-lg
+                                text-[#FF4240]">Price - $22.00</p>
+                                <p class="man-500 text-base text-[#13131899]">Delivery Fee : Free</p>
+                               </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="flex lg:flex-row flex-col gap-14 md:gap-8 lg:gap-6 mt-6">
+                <!-- card 3 -->
+                <div class="p-6 border-[#d0d0d1] border-2 rounded-xl">
+                    <!-- card items -->
+                    <div class="flex gap-5">
+                        <!-- card image -->
+                        <div><img src="Images/7.png" alt=""></div> 
+                        <!-- card text -->
+                        <div>
+                            <!-- ratings -->
+                            <div class="flex gap-5 mb-3">
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#f99808" class="size-6">
+                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        5.0
+                                    </span>
+                                </div>
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        20
+                                    </span>
+                                </div>
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        200
+                                    </span>
+                                </div>
+                            </div>
+                              <!-- product name -->
+                              <p class="man-800 text-xl mb-3">World Cup Flags Football</p>
+                              <p class="man-500 text-base
+                              text-[#13131899] mb-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                              <!-- price and delivery -->
+                               <div class="flex justify-between">
+                                <p class="man-800 text-lg
+                                text-[#FF4240]">Price - $22.00</p>
+                                <p class="man-500 text-base text-[#13131899]">Delivery Fee : Free</p>
+                               </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="p-6 border-[#d0d0d1] border-2 rounded-xl">
+                    <!-- card items -->
+                    <div class="flex gap-5">
+                        <!-- card image -->
+                        <div><img src="Images/8.png" alt=""></div> 
+                        <!-- card text -->
+                        <div>
+                            <!-- ratings -->
+                            <div class="flex gap-5 mb-3">
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#f99808" class="size-6">
+                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        5.0
+                                    </span>
+                                </div>
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        20
+                                    </span>
+                                </div>
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        200
+                                    </span>
+                                </div>
+                            </div>
+                              <!-- product name -->
+                              <p class="man-800 text-xl mb-3">World Cup Flags Football</p>
+                              <p class="man-500 text-base
+                              text-[#13131899] mb-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                              <!-- price and delivery -->
+                               <div class="flex justify-between">
+                                <p class="man-800 text-lg
+                                text-[#FF4240]">Price - $22.00</p>
+                                <p class="man-500 text-base text-[#13131899]">Delivery Fee : Free</p>
+                               </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              
+              <div class="flex lg:flex-row flex-col gap-14 md:gap-8 lg:gap-6 mt-6">
+                <!-- card 5 -->
+                <div class="p-6 border-[#d0d0d1] border-2 rounded-xl">
+                    <!-- card items -->
+                    <div class="flex gap-5">
+                        <!-- card image -->
+                        <div><img src="Images/8.png" alt=""></div> 
+                        <!-- card text -->
+                        <div>
+                            <!-- ratings -->
+                            <div class="flex gap-5 mb-3">
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#f99808" class="size-6">
+                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        5.0
+                                    </span>
+                                </div>
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        20
+                                    </span>
+                                </div>
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        200
+                                    </span>
+                                </div>
+                            </div>
+                              <!-- product name -->
+                              <p class="man-800 text-xl mb-3">World Cup Flags Football</p>
+                              <p class="man-500 text-base
+                              text-[#13131899] mb-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                              <!-- price and delivery -->
+                               <div class="flex justify-between">
+                                <p class="man-800 text-lg
+                                text-[#FF4240]">Price - $22.00</p>
+                                <p class="man-500 text-base text-[#13131899]">Delivery Fee : Free</p>
+                               </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div class="p-6 border-[#d0d0d1] border-2 rounded-xl">
+                    <!-- card items -->
+                    <div class="flex gap-5">
+                        <!-- card image -->
+                        <div><img src="Images/9.png" alt=""></div> 
+                        <!-- card text -->
+                        <div>
+                            <!-- ratings -->
+                            <div class="flex gap-5 mb-3">
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#f99808" class="size-6">
+                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        5.0
+                                    </span>
+                                </div>
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        20
+                                    </span>
+                                </div>
+                                <div class="flex gap-1">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                          </svg>
+                                          
+                                    </span>
+                                    <span>
+                                        200
+                                    </span>
+                                </div>
+                            </div>
+                              <!-- product name -->
+                              <p class="man-800 text-xl mb-3">World Cup Flags Football</p>
+                              <p class="man-500 text-base
+                              text-[#13131899] mb-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                              <!-- price and delivery -->
+                               <div class="flex justify-between">
+                                <p class="man-800 text-lg
+                                text-[#FF4240]">Price - $22.00</p>
+                                <p class="man-500 text-base text-[#13131899]">Delivery Fee : Free</p>
+                               </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+           </section>
+           <!-- client questions -->
+            <section  class="mt-28">
+                <h2 class="man-800 mb-6 text-4xl lg:text-5xl text-center">Program Sections</h2>
+             <p class="text-[#13131899] mb-20 text-base man-500 lg:w-2/3 m-auto text-center">Recently this club being best club in the country. these stats are the reason for it. our professional coach done the trick of this club !</p>
+             <!-- hero & accordian part -->
+
+             <div class="hero">
+                <div class="hero-content flex-col gap-10 lg:flex-row">
+                    <!-- img -->
+                  <img
+                    src="/Images/11.png"
+                    class="max-w-sm rounded-lg shadow-2xl" />
+                    <!-- accordian -->
+                  <div>
+                    <div class="collapse collapse-arrow bg-white">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title text-xl man-700">Our Equipment</div>
+                        <div class="collapse-content text-[#13131899] text-base man-400">
+                          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                        </div>
+                      </div>
+                    <div class="collapse collapse-arrow bg-white">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title text-xl man-700">Hockey Training</div>
+                        <div class="collapse-content text-[#13131899] text-base man-400">
+                          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                        </div>
+                      </div>
+                    <div class="collapse collapse-arrow bg-white">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title text-xl man-700">Private Lessons</div>
+                        <div class="collapse-content text-[#13131899] text-base man-400">
+                          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                        </div>
+                      </div>
+                    <div class="collapse collapse-arrow bg-white">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title text-xl man-700">Ski Touring</div>
+                        <div class="collapse-content text-[#13131899] text-base man-400">
+                          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                        </div>
+                      </div>
+                    <div class="collapse collapse-arrow bg-white">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title text-xl man-700">About Booking</div>
+                        <div class="collapse-content text-[#13131899] text-base man-400">
+                          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                        </div>
+                      </div>
+                    <div class="collapse collapse-arrow bg-white">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title text-xl man-700">Terms & Pricings</div>
+                        <div class="collapse-content text-[#13131899] text-base man-400">
+                          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                        </div>
+                      </div>
+                      
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- get in touch -->
+             <section  class="mt-28">
+                <h2 class="man-800 mb-6 text-4xl lg:text-5xl text-center">Program Sections</h2>
+             <p class="text-[#13131899] mb-20 text-base man-500 lg:w-2/3 m-auto text-center">Recently this club being best club in the country. these stats are the reason for it. our professional coach done the trick of this club !</p>
+             <!-- form & contacts -->
+              <div class="flex flex-col lg:flex-row gap-14 lg:gap-0">
+                <div class="lg:w-1/3 grid gap-6 p-10 border-[#d0d0d1] border-2 rounded-xl">
+                    <div class="bg-[#f8fdf0] p-8">
+                        <img class="mb-6" src="Images/Group 1171275317.png" alt="">
+                        <p class="text-base mb-2 man-400 text-[#13131899]">Phone Number : </p>
+                        <p class="text-lg man-800">(+62) 123-321-543</p>
+                    </div>
+                    <div class="bg-[#fffcef] p-8">
+                        <img class="mb-6" src="Images/Group 1171275318.png" alt="">
+                        <p class="text-base mb-2 man-400 text-[#13131899]">Email : </p>
+                        <p class="text-lg man-800">hockeys@support.com</p>
+                    </div>
+                    <div class="bg-[#eff5fe] p-8">
+                        <img class="mb-6" src="Images/Group 1171275321.png" alt="">
+                        <p class="text-base mb-2 man-400 text-[#13131899]">Location : </p>
+                        <p class="text-lg man-800">152/1 Mohakhali Wireless Gate</p>
+                    </div>
+                  </div>
+                  <!-- form -->
+                  <div class="p-4 w-full">
+                    <div class="flex gap-6">
+                        <div class="flex-1">
+                            <p class="text-xl text-center lg:text-left man-700 mb-4">Your Name</p>
+                            <input placeholder="Enter your full name" class="bg-[#f9f9f9] drop-shadow-md h-16 p-3 rounded-md w-full" type="text">
+                        </div>
+                        <div class="flex-1">
+                            <p class="text-xl text-center lg:text-left man-700 mb-4">Your Email</p>
+                            <input placeholder="Enter your email" class="bg-[#f9f9f9] drop-shadow-md h-16 p-3 rounded-md w-full" type="text">
+                        </div>
+                    </div>
+                    <div class="flex gap-6 mt-6">
+                        <div class="flex-1">
+                            <p class="text-xl text-center lg:text-left man-700 mb-4">Subject</p>
+                            <input placeholder="Enter your full name" class="bg-[#f9f9f9] drop-shadow-md h-16 p-3 rounded-md w-full" type="text">
+                        </div>
+                        <div class="flex-1">
+                            <p class="text-xl text-center lg:text-left man-700 mb-4">Phone Number</p>
+                            <input placeholder="Enter your email" class="bg-[#f9f9f9] drop-shadow-md h-16 p-3 rounded-md w-full" type="text">
+                        </div>
+                    </div>
+                    <div class="flex-1 mt-6">
+                        <p class="text-xl text-center lg:text-left man-700 mb-4">Write a Message</p>
+                        <input class="bg-[#f9f9f9] drop-shadow-md h-[370px] p-3 rounded-md w-full" type="text">
+                    </div>
+                    <button class="bg-[#FF4240] text-xl mt-8 man-700 py-3 w-full rounded-md text-white">Send Message</button>
+                  </div>
+              </div>
+             </section>
+             <!-- social media section -->
+              <section class="mt-12 rounded-lg bg-slate-100 py-14">
+                <p class="text-2xl mb-6 text-center man-800">Social Media</p>
+                <div class="flex justify-center gap-6">
+                    <div class="cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
+                        <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"></path>
+                    </svg></div>
+                    <div class="cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                            <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
+                        </svg>
+                    </div>
+                    <div class="cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                            <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+                            </svg>
+                    </div>
+                    <div class="cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                                <path d="M17.791,46.836C18.502,46.53,19,45.823,19,45v-5.4c0-0.197,0.016-0.402,0.041-0.61C19.027,38.994,19.014,38.997,19,39 c0,0-3,0-3.6,0c-1.5,0-2.8-0.6-3.4-1.8c-0.7-1.3-1-3.5-2.8-4.7C8.9,32.3,9.1,32,9.7,32c0.6,0.1,1.9,0.9,2.7,2c0.9,1.1,1.8,2,3.4,2 c2.487,0,3.82-0.125,4.622-0.555C21.356,34.056,22.649,33,24,33v-0.025c-5.668-0.182-9.289-2.066-10.975-4.975 c-3.665,0.042-6.856,0.405-8.677,0.707c-0.058-0.327-0.108-0.656-0.151-0.987c1.797-0.296,4.843-0.647,8.345-0.714 c-0.112-0.276-0.209-0.559-0.291-0.849c-3.511-0.178-6.541-0.039-8.187,0.097c-0.02-0.332-0.047-0.663-0.051-0.999 c1.649-0.135,4.597-0.27,8.018-0.111c-0.079-0.5-0.13-1.011-0.13-1.543c0-1.7,0.6-3.5,1.7-5c-0.5-1.7-1.2-5.3,0.2-6.6 c2.7,0,4.6,1.3,5.5,2.1C21,13.4,22.9,13,25,13s4,0.4,5.6,1.1c0.9-0.8,2.8-2.1,5.5-2.1c1.5,1.4,0.7,5,0.2,6.6c1.1,1.5,1.7,3.2,1.6,5 c0,0.484-0.045,0.951-0.11,1.409c3.499-0.172,6.527-0.034,8.204,0.102c-0.002,0.337-0.033,0.666-0.051,0.999 c-1.671-0.138-4.775-0.28-8.359-0.089c-0.089,0.336-0.197,0.663-0.325,0.98c3.546,0.046,6.665,0.389,8.548,0.689 c-0.043,0.332-0.093,0.661-0.151,0.987c-1.912-0.306-5.171-0.664-8.879-0.682C35.112,30.873,31.557,32.75,26,32.969V33 c2.6,0,5,3.9,5,6.6V45c0,0.823,0.498,1.53,1.209,1.836C41.37,43.804,48,35.164,48,25C48,12.318,37.683,2,25,2S2,12.318,2,25 C2,35.164,8.63,43.804,17.791,46.836z"></path>
+                            </svg>
+                    </div>
+                </div>
+              </section>
+    </main>
+    <footer class="bg-[#131318]">
+        <div class="footer p-10">
+            <nav class="text-white">
+                <h6 class="my-5 text-white man-700 text-2xl">Get In Touch</h6>
+                <p class="w-[346px] text-[#afafaf] text-base man-500">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                
+              </nav>
+              <nav class="">
+                <h6 class="mb-12 text-white man-700 text-lg">Company</h6>
+                <a class="link link-hover text-[#afafaf] text-base man-500">Branding</a>
+                <a class="link link-hover text-[#afafaf] text-base man-500">Design</a>
+                <a class="link link-hover text-[#afafaf] text-base man-500">Marketing</a>
+                <a class="link link-hover text-[#afafaf] text-base man-500">Advertisement</a>
+                <a class=" text-link link-hover text-[#afafaf] text-base man-500">Advertisement</a>
+              </nav>
+              <nav>
+                <h6 class="mb-12 text-white man-700 text-lg">Support</h6>
+                <a class="link link-hover text-[#afafaf] text-base man-500">About us</a>
+                <a class="link link-hover text-[#afafaf] text-base man-500">Contact</a>
+                <a class="link link-hover text-[#afafaf] text-base man-500">Jobs</a>
+                <a class="link link-hover text-[#afafaf] text-base man-500">Press kit</a>
+              </nav>
+              <nav>
+                <h6 class="mb-12 text-white man-700 text-lg">Services</h6>
+                <a class="link link-hover text-[#afafaf] text-base man-500">Terms of use</a>
+                <a class="link link-hover text-[#afafaf] text-base man-500">Privacy policy</a>
+                <a class="link link-hover text-[#afafaf] text-base man-500">Cookie policy</a>
+              </nav>
+        </div>
+        <aside>
+            <p class="text-slate-200 text-center">Copyright © 2024- All right reserved by Hockeys Industries Ltd</p>
+          </aside>
+      </footer>
+</body>
+</html>
